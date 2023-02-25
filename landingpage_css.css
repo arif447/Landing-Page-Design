@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(224, 62, 62);
+    font-size: 30px;
+}
+
+.nav-item a {
+    margin-left: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(232, 232, 237);
+}
+
+.nav-item a:hover{
+    background-color: rgb(243, 237, 237);
+    color: rgb(35, 35, 35);
+    border-radius: 10px;
+}
+/* careousel */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+   
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: rgb(245, 245, 63);
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height:1.9 ;
+    font-weight: 500;
+
+}
+/* about part */
+.about-container,
+ .about-row{
+   background-color: rgb(243, 246, 249);
+   margin-top: 33px;
+   border-radius: 5px;
+}
+.about-img img{
+    height: 300px;
+    
+}
+.about-text{
+  margin-top: 40px;
+  margin-left: 10px;
+  
+
+}
+.about-text h3{
+   color: black;
+   font-weight: 700;
+}
+.about-text button{
+    font-family: 18px;
+    font-weight: 500;
+}
+.about-text button:hover{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+
+}
+/* about end */
+
+/* services */
+
+.services-head h5{
+    color: rgb(224, 62, 62);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.services-head p{
+    font-weight: 400;
+    color: rgb(106, 104, 104);
+}
+
+.row .service-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+   
+}
+
+.service-area h5{
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 10px;
+}
+.service-area p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 252, 252);
+    margin-top: 10px;
+}
+.service-area a{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* protfolio */
+.img-are img{
+    width: 100%;
+}
+/* team */
+.card-body img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.socials i{
+    font-size: 25px;
+}
